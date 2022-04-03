@@ -1,0 +1,90 @@
+
+
+.promise {
+	position: relative;
+	height: 647px;
+}
+
+.promise-background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.promise-background-image img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+@media(min-width: 1700px) {
+	.promise {
+		width: 1700px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+.promise .container {
+	position: relative;
+}
+
+.promise-content {
+	width: 50%;
+	position: absolute;
+	top: 150px;
+	right: 0;
+}
+
+.promise-info h5 {
+	font-size: 28px;
+	line-height: 32px;
+	color: #1a1919;
+}
+
+.promise-info h1 {
+	font-weight: 700;
+	font-size: 84px;
+	line-height: 96px;
+	color: #1a1919;
+	padding-top: 20px;
+}
+
+.promise-info p {
+	font-size: 32px;
+	line-height: 42px;
+}
+
+.promise-button {
+	background-color: #b4141b;
+	color: white;
+	font-size: 24px;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+
+.promise-button {
+	width: 285px;
+	height: 75px;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.promise-button a {
+	display: inline-block;
+	padding-top: 2px;
+}
+
+
+
+
+
+
+
+
+
